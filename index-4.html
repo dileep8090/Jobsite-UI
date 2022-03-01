@@ -1,0 +1,871 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<!-- /index-4.html    10:05:49 GMT -->
+<head>
+    <title>iScout - Job Board HTML Template</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+
+    <!-- External CSS libraries -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-submenu.css">
+
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-select.min.css">
+    <link rel="stylesheet" type="text/css" href="css/magnific-popup.css">
+    <link rel="stylesheet" type="text/css" href="css/daterangepicker.css">
+    <link rel="stylesheet" href="css/leaflet.css" type="text/css">
+    <link rel="stylesheet" href="css/map.css" type="text/css">
+    <link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="fonts/flaticon/font/flaticon.css">
+    <link rel="stylesheet" type="text/css" href="fonts/linearicons/style.css">
+    <link rel="stylesheet" type="text/css"  href="css/jquery.mCustomScrollbar.css">
+    <link rel="stylesheet" type="text/css"  href="css/dropzone.css">
+    <link rel="stylesheet" type="text/css"  href="css/slick.css">
+
+    <!-- Custom stylesheet -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" id="style_sheet" href="css/skins/red.css">
+
+    <!-- Favicon icon -->
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" >
+
+    <!-- Google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Nunito:300,400,600,700,800,900%7CRaleway:300,400,500,600,700&amp;display=swap" rel="stylesheet">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link rel="stylesheet" type="text/css" href="css/ie10-viewport-bug-workaround.css">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script  src="js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script  src="js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script  src="js/html5shiv.min.js"></script>
+    <script  src="js/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<div class="page_loader"></div>
+
+<!-- Main header start -->
+<header class="main-header header-transparent sticky-header header-bg text-color">
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand logo-2" href="index.html">
+                <img src="img/logos/black-logo.png" alt="logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="fa fa-bars"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav header-ml">
+                    <li class="nav-item dropdown active">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Index
+                        </a>
+                        <ul class="dropdown-menu dm-2" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="index.html">Index 01</a></li>
+                            <li><a class="dropdown-item" href="index-2.html">Index 02</a></li>
+                            <li><a class="dropdown-item" href="index-3.html">Index 03</a></li>
+                            <li><a class="dropdown-item" href="index-4.html">Index 04</a></li>
+                            <li><a class="dropdown-item" href="index-5.html">Index 05</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink9" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Candidates
+                        </a>
+                        <ul class="dropdown-menu dm-2" aria-labelledby="navbarDropdownMenuLink9">
+                            <li><a class="dropdown-item" href="candidate-list.html">Candidate List</a></li>
+                            <li><a class="dropdown-item" href="candidate-grid.html">Candidate Grid</a></li>
+                            <li><a class="dropdown-item" href="candidate-details.html">Candidate Details</a></li>
+                            <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="employer-dashboard.html">Candidate Dashboard</a>
+                                <ul class="dropdown-menu dm-2">
+                                    <li><a class="dropdown-item" href="dashboard.html">Dashboard</a></li>
+                                    <li><a class="dropdown-item" href="edit-profile.html">Edit Profile</a></li>
+                                    <li><a class="dropdown-item" href="add-resume.html">Add Resume</a></li>
+                                    <li><a class="dropdown-item" href="bookmark.html">bookmark</a></li>
+                                    <li><a class="dropdown-item" href="applied.html">Applied</a></li>
+                                    <li><a class="dropdown-item" href="messages.html">Messages</a></li>
+                                    <li><a class="dropdown-item" href="alerts.html">Job Alert</a></li>
+                                    <li><a class="dropdown-item" href="transaction.html">Transaction</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Employers
+                        </a>
+                        <ul class="dropdown-menu dm-2" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="employer-list.html">Employer List</a></li>
+                            <li><a class="dropdown-item" href="employer-grid.html">Employer Grid</a></li>
+                            <li><a class="dropdown-item" href="employer-details.html">Employer Details</a></li>
+                            <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="employer-dashboard.html">Employer Dashboard</a>
+                                <ul class="dropdown-menu dm-2">
+                                    <li><a class="dropdown-item" href="employer-dashboard.html">Dashboard</a></li>
+                                    <li><a class="dropdown-item" href="employer-dashboard-edit-profile.html">Edit Profile</a></li>
+                                    <li><a class="dropdown-item" href="employer-dashboard-post-job.html">Post a Job</a></li>
+                                    <li><a class="dropdown-item" href="employer-dashboard-manage-job.html">Manage Job</a></li>
+                                    <li><a class="dropdown-item" href="employer-dashboard-manage-candidate.html">Manage Candidate</a></li>
+                                    <li><a class="dropdown-item" href="employer-dashboard-messages.html">Messages</a></li>
+                                    <li><a class="dropdown-item" href="employer-dashboard-transaction.html">Transaction</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink10" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Job
+                        </a>
+                        <ul class="dropdown-menu dm-2" aria-labelledby="navbarDropdownMenuLink10">
+                            <li><a class="dropdown-item" href="job-list.html">Job List</a></li>
+                            <li><a class="dropdown-item" href="job-grid.html">Job Grid</a></li>
+                            <li><a class="dropdown-item" href="job-details.html">Job Details</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown megamenu-li">
+                        <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Pages</a>
+                        <div class="dropdown-menu megamenu" aria-labelledby="dropdown01">
+                            <div class="megamenu-area">
+                                <div class="row sobuz">
+                                    <div class="col-sm-4 col-md-4 col-lg-4">
+                                        <div class="megamenu-section">
+                                            <h6 class="megamenu-title">Pages</h6>
+                                            <a class="dropdown-item" href="about.html">About Us</a>
+                                            <a class="dropdown-item" href="our-team.html">Our Team</a>
+                                            <a class="dropdown-item" href="pricing-plan.html">Pricing Plan</a>
+                                            <a class="dropdown-item" href="terms-and-policies.html">Terms And Policies</a>
+                                            <a class="dropdown-item" href="how-it-work.html">How It Work</a>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-4 col-md-4 col-lg-4">
+                                        <div class="megamenu-section">
+                                            <h6 class="megamenu-title">Pages</h6>
+                                            <a class="dropdown-item" href="contact.html">Contact Us</a>
+                                            <a class="dropdown-item" href="invoices.html">Invoice</a>
+                                            <a class="dropdown-item" href="faq.html">Faq</a>
+                                            <a class="dropdown-item" href="icon.html">Icons</a>
+                                            <a class="dropdown-item" href="typoghrapy.html">Typoghrapy</a>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-4 col-md-4 col-lg-4">
+                                        <div class="megamenu-section">
+                                            <h6 class="megamenu-title">Pages</h6>
+                                            <a class="dropdown-item" href="coming-soon.html">Coming Soon</a>
+                                            <a class="dropdown-item" href="login.html">Login</a>
+                                            <a class="dropdown-item" href="signup.html">Register</a>
+                                            <a class="dropdown-item" href="404.html">Error Page</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink7" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Blog
+                        </a>
+                        <ul class="dropdown-menu dm-2" aria-labelledby="navbarDropdownMenuLink7">
+                            <li><a class="dropdown-item" href="blog-columns-2.html">Blog 2 Columns</a></li>
+                            <li><a class="dropdown-item" href="blog-columns-3.html">Blog 3 Columns</a></li>
+                            <li><a class="dropdown-item" href="blog-right-sidebar.html">Blog Right Sidebar</a></li>
+                            <li><a class="dropdown-item" href="blog-details.html">Blog Details</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item ni-2">
+                        <a class="nav-link" href="login.html">
+                            Login
+                        </a>
+                    </li>
+                    <li class="nav-item ni-2">
+                        <a class="nav-link deffold" href="#">
+                            /
+                        </a>
+                    </li>
+                    <li class="nav-item ni-2">
+                        <a class="nav-link" href="signup.html">
+                            Register
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link link-color"><i class="flaticon-plus"></i> Post a Jobs</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+</header>
+<!-- Main header end -->
+
+<!-- Banner start -->
+<div class="banner" id="banner">
+    <div id="bannerCarousole" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item banner-max-height active item-bg">
+                <img class="d-block w-100 h-100" src="img/banner/banner-4.jpg" alt="banner">
+                <div class="carousel-caption banner-slider-inner d-flex text-center">
+                    <div class="container">
+                        <div class="search-info">
+                            <div class="banner-inner text-left">
+                                <div class="banner-text">
+                                    <h2>Find the Job That Fits Your Life</h2>
+                                    <div class="inline-search-area ml-auto mr-auto">
+                                        <div class="search-boxs">
+                                            <div class="search-col">
+                                                <input type="text" name="search" class="form-control has-icon b-radius" placeholder="Job title or Keywords">
+                                            </div>
+                                            <div class="search-col">
+                                                <select class="selectpicker search-fields" name="location">
+                                                    <option>Location</option>
+                                                    <option>New York</option>
+                                                    <option>Australian</option>
+                                                </select>
+                                            </div>
+                                            <div class="find">
+                                                <button class="btn btn-search btn-block b-radius btn-active">
+                                                    <i class="fa fa-search"></i><strong>Find Job</strong>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                    <div class="browse-jobs">
+                                        Browse job offers by <a href="#">Category</a> or <a href="#">Location</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="banner-inner bi-2 search-info-2 text-left">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-9 col-lg-10">
+                        <div class="tc">
+                            <h1>Find the Job That Fits Your Life</h1>
+                            <p>We offer 12505 jobs vacation right now</p>
+                            <div class="inline-search-area ml-auto mr-auto">
+                                <div class="search-boxs">
+                                    <div class="search-col">
+                                        <input type="text" name="search" class="form-control has-icon b-radius" placeholder="Job title or Keywords">
+                                    </div>
+                                    <div class="search-col">
+                                        <select class="selectpicker search-fields" name="location">
+                                            <option>Location</option>
+                                            <option>New York</option>
+                                            <option>Australian</option>
+                                            <option>Canada</option>
+                                            <option>London</option>
+                                        </select>
+                                    </div>
+                                    <div class="find">
+                                        <button class="btn button-theme btn-search btn-block b-radius">
+                                            <i class="fa fa-search"></i><strong>Find Job</strong>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="clearfix"></div>
+                            <div class="browse-jobs">
+                                Browse job offers by <a href="#">Category</a> or <a href="#">Location</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Banner end -->
+
+<!-- Popular categories strat -->
+<div class="popular-categories content-area bg-grea">
+    <div class="container">
+        <!-- Main title -->
+        <div class="main-title text-center">
+            <h1>Popular Categories</h1>
+        </div>
+        <div class="row">
+            <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="categorie-box-3">
+                    <i class="flaticon-money"></i>
+                    <h5>Accounting / Finance</h5>
+                    <span>(2143)</span>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="categorie-box-3">
+                    <i class="flaticon-student"></i>
+                    <h5>Education Training</h5>
+                    <span>(2143)</span>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="categorie-box-3">
+                    <i class="flaticon-shout"></i>
+                    <h5>Digital Marketing</h5>
+                    <span>(2143)</span>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="categorie-box-3">
+                    <i class="flaticon-tower"></i>
+                    <h5>Telecommunication</h5>
+                    <span>(2143)</span>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="categorie-box-3">
+                    <i class="flaticon-team"></i>
+                    <h5>Human Resource</h5>
+                    <span>(2143)</span>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="categorie-box-3">
+                    <i class="flaticon-sale"></i>
+                    <h5>Sales & Marketing</h5>
+                    <span>(2143)</span>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="categorie-box-3">
+                    <i class="flaticon-pencil"></i>
+                    <h5>Writing & Translations</h5>
+                    <span>(2143)</span>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="categorie-box-3">
+                    <i class="flaticon-doctor"></i>
+                    <h5>Health Care</h5>
+                    <span>(2143)</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Popular categories end -->
+
+<!-- Counters strat -->
+<div class="counters">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-md-3 col-sm-6">
+                <div class="counter-box">
+                    <i class="flaticon-user"></i>
+                    <h1 class="counter">1967</h1>
+                    <p>Members</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6">
+                <div class="counter-box">
+                    <i class="flaticon-work"></i>
+                    <h1 class="counter">667</h1>
+                    <p>Jobs</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6">
+                <div class="counter-box">
+                    <i class="flaticon-portfolio"></i>
+                    <h1 class="counter">475</h1>
+                    <p>Resumes</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6">
+                <div class="counter-box">
+                    <i class="flaticon-branch"></i>
+                    <h1 class="counter">475</h1>
+                    <p>Companies</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Counters end -->
+
+<!-- Job section strat -->
+<div class="job-section content-area-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="main-title-2">
+                    <h1>Recent Jobs</h1>
+                    <a href="#" class="float-right baj">Browse All Jobs</a>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="job-item media">
+                    <a class="icon" href="#">
+                        <div class="company-logo">
+                            <img src="img/company-logo/logo-1.png" alt="logo">
+                        </div>
+                    </a>
+                    <div class="media-body align-self-center">
+                        <h4><a href="#">Digital Marketing Executive</a></h4>
+                        <div class="job-ad-item">
+                            <ul>
+                                <li><i class="flaticon-work"></i> Hotel</li>
+                                <li><i class="flaticon-pin"></i> New York City</li>
+                                <li><i class="flaticon-clock"></i> Full Time</li>
+                                <li><i class="flaticon-discount"></i> $25,00 - $35,00</li>
+                            </ul>
+                        </div>
+                        <div class="div-right">
+                            <a href="#" class="apply-button">Apply Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="job-item media">
+                    <a class="icon" href="#">
+                        <div class="company-logo">
+                            <img src="img/company-logo/logo-2.png" alt="logo">
+                        </div>
+                    </a>
+                    <div class="media-body align-self-center">
+                        <h4><a href="#">Senior UI & UX Designer</a></h4>
+                        <div class="job-ad-item">
+                            <ul>
+                                <li><i class="flaticon-work"></i> Hotel</li>
+                                <li><i class="flaticon-pin"></i> New York City</li>
+                                <li><i class="flaticon-clock"></i> Full Time</li>
+                                <li><i class="flaticon-discount"></i> $25,00 - $35,00</li>
+                            </ul>
+                        </div>
+                        <div class="div-right">
+                            <a href="#" class="apply-button">Apply Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="job-item media">
+                    <a class="icon" href="#">
+                        <div class="company-logo">
+                            <img src="img/company-logo/logo-3.png" alt="logo">
+                        </div>
+                    </a>
+                    <div class="media-body align-self-center">
+                        <h4><a href="#">Social Media Expert</a></h4>
+                        <div class="job-ad-item">
+                            <ul>
+                                <li><i class="flaticon-work"></i> Hotel</li>
+                                <li><i class="flaticon-pin"></i> New York City</li>
+                                <li><i class="flaticon-clock"></i> Full Time</li>
+                                <li><i class="flaticon-discount"></i> $25,00 - $35,00</li>
+                            </ul>
+                        </div>
+                        <div class="div-right">
+                            <a href="#" class="apply-button">Apply Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="job-item media">
+                    <a class="icon" href="#">
+                        <div class="company-logo">
+                            <img src="img/company-logo/logo-4.png" alt="logo">
+                        </div>
+                    </a>
+                    <div class="media-body align-self-center">
+                        <h4><a href="#">Technical Database Engineer</a></h4>
+                        <div class="job-ad-item">
+                            <ul>
+                                <li><i class="flaticon-work"></i> Hotel</li>
+                                <li><i class="flaticon-pin"></i> New York City</li>
+                                <li><i class="flaticon-clock"></i> Full Time</li>
+                                <li><i class="flaticon-discount"></i> $25,00 - $35,00</li>
+                            </ul>
+                        </div>
+                        <div class="div-right">
+                            <a href="#" class="apply-button">Apply Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="job-item media mb-0">
+                    <a class="icon" href="#">
+                        <div class="company-logo">
+                            <img src="img/company-logo/logo-5.png" alt="logo">
+                        </div>
+                    </a>
+                    <div class="media-body align-self-center">
+                        <h4><a href="#">Web Designer</a></h4>
+                        <div class="job-ad-item">
+                            <ul>
+                                <li><i class="flaticon-work"></i> Hotel</li>
+                                <li><i class="flaticon-pin"></i> New York City</li>
+                                <li><i class="flaticon-clock"></i> Full Time</li>
+                                <li><i class="flaticon-discount"></i> $25,00 - $35,00</li>
+                            </ul>
+                        </div>
+                        <div class="div-right">
+                            <a href="#" class="apply-button">Apply Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Job section end -->
+
+<!-- Testimonial start -->
+<div class="testimonial-3">
+    <div class="container">
+        <div class="row">
+            <div class="offset-lg-2 col-lg-8">
+                <div class="main-title-3">
+                    <h1>Kind Words From Happy Candidates</h1>
+                </div>
+                <div id="carouselExampleIndicators3" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators3" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators3" data-slide-to="1" class=""></li>
+                        <li data-target="#carouselExampleIndicators3" data-slide-to="2" class=""></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="testimonial-info">
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.But also the leap into electronic typesetting, remaining essentially unchanged.</p>
+                                <div class="media mb-5">
+                                    <a class="pr-3" href="#">
+                                        <img src="img/avatar/avatar-1.jpg" alt="team-3" class="img-fluid">
+                                    </a>
+                                    <div class="media-body align-self-center">
+                                        <h5>
+                                            <a href="#">Anne Brady</a>
+                                        </h5>
+                                        <h6>Restaurant Owner</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="testimonial-info">
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.But also the leap into electronic typesetting, remaining essentially unchanged.</p>
+                                <div class="media mb-5">
+                                    <a class="pr-3" href="#">
+                                        <img src="img/avatar/avatar-2.jpg" alt="team-3" class="img-fluid">
+                                    </a>
+                                    <div class="media-body align-self-center">
+                                        <h5>
+                                            <a href="#">Antony Moore</a>
+                                        </h5>
+                                        <h6>Restaurant Owner</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="testimonial-info">
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.But also the leap into electronic typesetting, remaining essentially unchanged.</p>
+                                <div class="media mb-5">
+                                    <a class="pr-3" href="#">
+                                        <img src="img/avatar/avatar-3.jpg" alt="team-3" class="img-fluid">
+                                    </a>
+                                    <div class="media-body align-self-center">
+                                        <h5>
+                                            <a href="#">Emma Connor</a>
+                                        </h5>
+                                        <h6>Restaurant Owner</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Testimonial end -->
+
+<!-- Blog start -->
+<div class="blog content-area">
+    <div class="container">
+        <!-- Main title -->
+        <div class="main-title">
+            <h1>Latest Blog</h1>
+        </div>
+        <div class="container">
+            <div class="slick-slider-area">
+                <div class="row slick-carousel" data-slick='{"slidesToShow": 3, "responsive":[{"breakpoint": 1024,"settings":{"slidesToShow": 2}}, {"breakpoint": 768,"settings":{"slidesToShow": 1}}]}'>
+                    <div class="slick-slide-item">
+                        <div class="blog-1">
+                            <div class="blog-photo">
+                                <img src="img/blog/blog-3.jpg" alt="blog" class="img-fluid">
+                                <div class="date-box">
+                                    <span>14</span>Nov
+                                </div>
+                            </div>
+                            <div class="detail">
+                                <div class="post-meta">
+                                    <span><a href="#"><i class="fa fa-user"></i>Amdin</a></span>
+                                    <span><a href="#"><i class="fa fa-comment"></i>12</a></span>
+                                    <span><a href="#"><i class="fa fa-heart"></i>18</a></span>
+                                </div>
+                                <h3>
+                                    <a href="blog-details.html">Negotiate A Job Offer & Close The Deal</a>
+                                </h3>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slick-slide-item">
+                        <div class="blog-1">
+                            <div class="blog-photo">
+                                <img src="img/blog/blog-2.jpg" alt="blog" class="img-fluid">
+                                <div class="date-box">
+                                    <span>26</span>Aug
+                                </div>
+                            </div>
+                            <div class="detail">
+                                <div class="post-meta">
+                                    <span><a href="#"><i class="fa fa-user"></i>Amdin</a></span>
+                                    <span><a href="#"><i class="fa fa-comment"></i>12</a></span>
+                                    <span><a href="#"><i class="fa fa-heart"></i>18</a></span>
+                                </div>
+                                <h3>
+                                    <a href="blog-details.html">How To Get Out Of Stress At Work</a>
+                                </h3>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slick-slide-item">
+                        <div class="blog-1">
+                            <div class="blog-photo">
+                                <img src="img/blog/blog-1.jpg" alt="blog" class="img-fluid">
+                                <div class="date-box">
+                                    <span>12</span>Feb
+                                </div>
+                            </div>
+                            <div class="detail">
+                                <div class="post-meta">
+                                    <span><a href="#"><i class="fa fa-user"></i>Amdin</a></span>
+                                    <span><a href="#"><i class="fa fa-comment"></i>12</a></span>
+                                    <span><a href="#"><i class="fa fa-heart"></i>18</a></span>
+                                </div>
+                                <h3>
+                                    <a href="blog-details.html">How You Can Give Someone A Second Chance</a>
+                                </h3>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slick-slide-item">
+                        <div class="blog-1">
+                            <div class="blog-photo">
+                                <img src="img/blog/blog-1.jpg" alt="blog" class="img-fluid">
+                                <div class="date-box">
+                                    <span>12</span>Feb
+                                </div>
+                            </div>
+                            <div class="detail">
+                                <div class="post-meta">
+                                    <span><a href="#"><i class="fa fa-user"></i>Amdin</a></span>
+                                    <span><a href="#"><i class="fa fa-comment"></i>12</a></span>
+                                    <span><a href="#"><i class="fa fa-heart"></i>18</a></span>
+                                </div>
+                                <h3>
+                                    <a href="blog-details.html">How You Can Give Someone A Second Chance</a>
+                                </h3>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Blog end -->
+
+<!-- Intro section -->
+<div class="intro-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-5 col-md-12 col-sm-12">
+                <div class="intro-text">
+                    <h3>Download on App Store</h3>
+                    <p>Searching for jobs never been that easy.</p>
+                </div>
+            </div>
+            <div class="col-lg-7 col-md-12 col-sm-12">
+                <div class="app-download-button">
+                    <a href="#" class="android-app"><i class="flaticon-google-play"></i>Windows Store</a>
+                    <a href="#" class="apple-app"><i class="flaticon-apple"></i>Apple Store</a>
+                    <a href="#" class="android-app"><i class="flaticon-app-1"></i>Google Play</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Intro end -->
+
+<!-- Footer start -->
+<footer class="footer">
+    <div class="container footer-inner">
+        <div class="row">
+            <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6">
+                <div class="footer-item clearfix">
+                    <img src="img/logos/logo.png" alt="logo" class="f-logo">
+                    <div class="s-border"></div>
+                    <div class="m-border"></div>
+                    <ul class="contact-info">
+                        <li>
+                            <i class="flaticon-pin"></i>20/F Green Road, Dhanmondi, Dhaka
+                        </li>
+                        <li>
+                            <i class="flaticon-mail"></i><a href="mailto:sales@hotelempire.com">info@themevessel.com</a>
+                        </li>
+                        <li>
+                            <i class="flaticon-internet"></i><a href="mailto:sales@hotelempire.com">info@themevessel.com</a>
+                        </li>
+                        <li>
+                            <i class="flaticon-phone"></i><a href="tel:+55-417-634-7071">+0477 85X6 552</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-xl-2 col-lg-2 col-md-4 col-sm-6">
+                <div class="footer-item">
+                    <h4>Helpful Links</h4>
+                    <div class="s-border"></div>
+                    <div class="m-border"></div>
+                    <ul class="links">
+                        <li>
+                            <a href="#">About Us</a>
+                        </li>
+                        <li>
+                            <a href="#">Contact Us</a>
+                        </li>
+                        <li>
+                            <a href="#">Terms & Conditions</a>
+                        </li>
+                        <li>
+                            <a href="#">Privacy Policy</a>
+                        </li>
+                        <li>
+                            <a href="#">Blog</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-xl-2 col-lg-2 col-md-4 col-sm-6">
+                <div class="footer-item">
+                    <h4>Job Seekers</h4>
+                    <div class="s-border"></div>
+                    <div class="m-border"></div>
+                    <ul class="links">
+                        <li>
+                            <a href="#">Create Account</a>
+                        </li>
+                        <li>
+                            <a href="about.html">Career Counseling</a>
+                        </li>
+                        <li>
+                            <a href="pricing-tables.html">My Oficiona</a>
+                        </li>
+                        <li>
+                            <a href="contact.html">FAQ</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-xl-2 col-lg-2 col-md-4 col-sm-6">
+                <div class="footer-item">
+                    <h4>Employers</h4>
+                    <div class="s-border"></div>
+                    <div class="m-border"></div>
+                    <ul class="links">
+                        <li>
+                            <a href="#">Create Account</a>
+                        </li>
+                        <li>
+                            <a href="#">Products $ Service</a>
+                        </li>
+                        <li>
+                            <a href="#">Post a Task</a>
+                        </li>
+                        <li>
+                            <a href="#">FAQ</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-8 col-sm-12">
+                <div class="footer-item clearfix">
+                    <h4>Newsletter</h4>
+                    <div class="s-border"></div>
+                    <div class="m-border"></div>
+                    <div class="Subscribe-box">
+                        <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit.</p>
+                        <form class="form-inline" action="#" method="GET">
+                            <input type="text" class="form-control mb-sm-0" id="inlineFormInputName3" placeholder="Email Address">
+                            <button type="submit" class="btn"><i class="fa fa-paper-plane"></i></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="sub-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-9 col-lg-9 col-md-12">
+                    <p class="copy">© 2020 <a href="#">Theme Vessel.</a> All Rights Reserved.</p>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-12">
+                    <ul class="social-list clearfix">
+                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                        <li><a href="#"><i class="fa fa-rss"></i></a></li>
+                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- Footer end -->
+
+<script src="js/jquery-2.2.0.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script  src="js/bootstrap-submenu.js"></script>
+<script  src="js/rangeslider.js"></script>
+<script  src="js/jquery.mb.YTPlayer.js"></script>
+<script  src="js/bootstrap-select.min.js"></script>
+<script  src="js/jquery.easing.1.3.js"></script>
+<script  src="js/jquery.scrollUp.js"></script>
+<script  src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+<script  src="js/leaflet.js"></script>
+<script  src="js/leaflet-providers.js"></script>
+<script  src="js/leaflet.markercluster.js"></script>
+<script  src="js/moment.min.js"></script>
+<script  src="js/daterangepicker.min.js"></script>
+<script  src="js/dropzone.js"></script>
+<script  src="js/slick.min.js"></script>
+<script  src="js/jquery.filterizr.js"></script>
+<script  src="js/jquery.magnific-popup.min.js"></script>
+<script  src="js/jquery.countdown.js"></script>
+<script  src="js/maps.js"></script>
+<script  src="js/app.js"></script>
+
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<script  src="js/ie10-viewport-bug-workaround.js"></script>
+<!-- Custom javascript -->
+<script  src="js/ie10-viewport-bug-workaround.js"></script>
+</body>
+
+<!-- /index-4.html    10:05:49 GMT -->
+</html>
